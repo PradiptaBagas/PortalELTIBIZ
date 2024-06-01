@@ -364,6 +364,40 @@ ul {
     margin-top: 10px;
 }
 
+.whatsapp-container {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.whatsapp-container:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-logo {
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp-logo span {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.whatsapp-logo img {
+    width: 30px;
+    height: 30px;
+}
+
 
 
 
